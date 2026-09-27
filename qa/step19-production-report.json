@@ -1,0 +1,54 @@
+[
+  {
+    "name": "desktop",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/_next/image?url=%2Fassets%2F1998%2F2b3ed4958bb0fa71333f76b5a71cc8cb.jpg&w=3840&q=75",
+        "loaded": true
+      }
+    ],
+    "headings": [],
+    "badAnchors": [],
+    "errors": []
+  },
+  {
+    "name": "tablet",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/_next/image?url=%2Fassets%2F1998%2F2b3ed4958bb0fa71333f76b5a71cc8cb.jpg&w=3840&q=75",
+        "loaded": true
+      }
+    ],
+    "headings": [],
+    "badAnchors": [],
+    "errors": []
+  },
+  {
+    "name": "mobile",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/_next/image?url=%2Fassets%2F1998%2F2b3ed4958bb0fa71333f76b5a71cc8cb.jpg&w=3840&q=75",
+        "loaded": true
+      }
+    ],
+    "headings": [],
+    "badAnchors": [],
+    "errors": []
+  },
+  {
+    "name": "narrow",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/_next/image?url=%2Fassets%2F1998%2F2b3ed4958bb0fa71333f76b5a71cc8cb.jpg&w=3840&q=75",
+        "loaded": true
+      }
+    ],
+    "headings": [],
+    "badAnchors": [],
+    "errors": []
+  }
+]

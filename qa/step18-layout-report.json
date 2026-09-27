@@ -1,0 +1,186 @@
+[
+  {
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "pageHeight": 19383,
+    "overviewWords": 376,
+    "checks": [
+      {
+        "id": "hero",
+        "overflow": false
+      },
+      {
+        "id": "quick",
+        "overflow": false
+      },
+      {
+        "id": "audience",
+        "overflow": false
+      },
+      {
+        "id": "chapter-2006",
+        "overflow": false
+      },
+      {
+        "id": "campaign",
+        "overflow": false
+      },
+      {
+        "id": "social",
+        "overflow": false
+      },
+      {
+        "id": "activation",
+        "overflow": false
+      },
+      {
+        "id": "measurement",
+        "overflow": false
+      },
+      {
+        "id": "about",
+        "overflow": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "viewport": "tablet",
+    "width": 820,
+    "height": 1180,
+    "pageHeight": 20044,
+    "overviewWords": 376,
+    "checks": [
+      {
+        "id": "hero",
+        "overflow": false
+      },
+      {
+        "id": "quick",
+        "overflow": false
+      },
+      {
+        "id": "audience",
+        "overflow": false
+      },
+      {
+        "id": "chapter-2006",
+        "overflow": false
+      },
+      {
+        "id": "campaign",
+        "overflow": false
+      },
+      {
+        "id": "social",
+        "overflow": false
+      },
+      {
+        "id": "activation",
+        "overflow": false
+      },
+      {
+        "id": "measurement",
+        "overflow": false
+      },
+      {
+        "id": "about",
+        "overflow": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "viewport": "mobile",
+    "width": 390,
+    "height": 844,
+    "pageHeight": 24170,
+    "overviewWords": 380,
+    "checks": [
+      {
+        "id": "hero",
+        "overflow": false
+      },
+      {
+        "id": "quick",
+        "overflow": false
+      },
+      {
+        "id": "audience",
+        "overflow": false
+      },
+      {
+        "id": "chapter-2006",
+        "overflow": false
+      },
+      {
+        "id": "campaign",
+        "overflow": false
+      },
+      {
+        "id": "social",
+        "overflow": false
+      },
+      {
+        "id": "activation",
+        "overflow": false
+      },
+      {
+        "id": "measurement",
+        "overflow": false
+      },
+      {
+        "id": "about",
+        "overflow": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "viewport": "narrow",
+    "width": 320,
+    "height": 740,
+    "pageHeight": 26060,
+    "overviewWords": 380,
+    "checks": [
+      {
+        "id": "hero",
+        "overflow": false
+      },
+      {
+        "id": "quick",
+        "overflow": false
+      },
+      {
+        "id": "audience",
+        "overflow": false
+      },
+      {
+        "id": "chapter-2006",
+        "overflow": false
+      },
+      {
+        "id": "campaign",
+        "overflow": false
+      },
+      {
+        "id": "social",
+        "overflow": false
+      },
+      {
+        "id": "activation",
+        "overflow": false
+      },
+      {
+        "id": "measurement",
+        "overflow": false
+      },
+      {
+        "id": "about",
+        "overflow": false
+      }
+    ],
+    "errors": []
+  }
+]

@@ -1,0 +1,8 @@
+import {chromium} from '@playwright/test';
+import fs from 'node:fs';
+const browser=await chromium.launch({channel:'msedge'});const report=[];
+for(const [name,width,height] of [['desktop',1440,1000],['tablet',820,1180],['mobile',390,844],['narrow',320,740]]){
+const page=await browser.newPage({viewport:{width,height},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});page.on('response',r=>{if(r.url().startsWith('http://127.0.0.1:3001')&&r.status()>=400)errors.push(`${r.status()} ${r.url()}`)});await page.goto('http://127.0.0.1:3001/');await page.locator('.hero-photo-field img').evaluate(img=>img.decode());
+const audit=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth,images:[...document.images].map(i=>({src:i.getAttribute('src'),loaded:i.complete&&i.naturalWidth>0})),headings:[...document.querySelectorAll('h1,h2,h3,h4,.year')].filter(e=>e.getClientRects().length).filter(e=>e.scrollWidth>e.clientWidth+1).map(e=>e.textContent),badAnchors:[...document.querySelectorAll('a[href^="#"]')].filter(a=>!document.getElementById(a.hash.slice(1))).map(a=>a.hash)}));
+for(const id of ['hero','quick','audience','chapter-2006','about']){await page.locator('#'+id).evaluate(e=>e.scrollIntoView({behavior:'instant',block:'start'}));await page.screenshot({path:`qa/screenshots/step19-${name}-${id}.png`});}report.push({name,...audit,errors});await page.close();}
+await browser.close();fs.writeFileSync('qa/step19-production-report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

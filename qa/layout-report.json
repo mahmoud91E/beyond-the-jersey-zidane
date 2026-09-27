@@ -1,0 +1,176 @@
+[
+  {
+    "viewport": "desktop",
+    "section": "hero",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "desktop",
+    "section": "chapter-1998",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "desktop",
+    "section": "chapter-2000",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "desktop",
+    "section": "chapter-2002-2004",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "desktop",
+    "section": "chapter-2006",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "desktop",
+    "section": "stage-farewell",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "desktop",
+    "section": "campaign",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "desktop",
+    "section": "social",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "desktop",
+    "section": "measurement",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "desktop",
+    "consoleErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "section": "hero",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "mobile",
+    "section": "chapter-1998",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "mobile",
+    "section": "chapter-2000",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "mobile",
+    "section": "chapter-2002-2004",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "mobile",
+    "section": "chapter-2006",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "mobile",
+    "section": "stage-farewell",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "mobile",
+    "section": "campaign",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "mobile",
+    "section": "social",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "mobile",
+    "section": "measurement",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "mobile",
+    "consoleErrors": []
+  },
+  {
+    "viewport": "narrow",
+    "section": "hero",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "narrow",
+    "section": "chapter-1998",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "narrow",
+    "section": "chapter-2000",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "narrow",
+    "section": "chapter-2002-2004",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "narrow",
+    "section": "chapter-2006",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "narrow",
+    "section": "stage-farewell",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "narrow",
+    "section": "campaign",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "narrow",
+    "section": "social",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "narrow",
+    "section": "measurement",
+    "page": false,
+    "offenders": []
+  },
+  {
+    "viewport": "narrow",
+    "consoleErrors": []
+  }
+]
